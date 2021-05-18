@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://enigterry.github.io/styles.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <script type="text/javascript" src="https://enigterry.github.io/javascript.js"> </script>
 </head>
 
@@ -29,7 +30,14 @@ s-photo-1229861">
 
 <div class="row">
   <div class="side"> <h2>EnigTeeWorld:What we offer </h2>
-    <p> At Enigteeworld we offer services ranging from sales of laptops, laptop repairs, software installations and more</p> </div>
+    <p> At Enigteeworld we offer services ranging from sales of laptops, laptop repairs, software installations and more</p>
+    <ul>
+      <li> Sales of laptops at highly discounted prices</li>
+      <li> Laptop repairs, software installations, programming and installations</li>
+      <li> Exclusive online shopping deals on laptops and all related gadgets on the website</li>
+      <li>Expert opinions and consultations to enable you pick that device that suits your needs</li>
+      </ul>
+  </div>
 
 
   <div class="main"> <p> EnigTeeWorld. A platform dedicated to meeting your every computer and computer related needs.Buy that laptop that's suited for your needs, be it for business, personal use,gaming, we have it all</p>.</div>

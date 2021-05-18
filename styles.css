@@ -79,9 +79,6 @@
   text-align: center; /* Center text*/
   background: #ddd; /* Grey background */
 }
-* {
-  box-sizing: border-box;
-}
 
 /* Style the search field */
 form.example input[type=text] {

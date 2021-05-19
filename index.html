@@ -49,7 +49,7 @@
 
 <div class="row">
   <div class="column">
-    <img src="1.jpg" alt="hp" style="width:100%3">
+    <img src="1.jpg" alt="hp" style="width:100%">
   </div>
   <div class="column">
     <img src="2.jpg" alt="lenovo laptop" style="width:100%">
@@ -57,6 +57,24 @@
   <div class="column">
     <img src="xps-EzYq1HOl5_8-unsplash.jpg" alt="ideapad" style="width:100%">
   </div>
+  <style>
+  * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </div>
  </div>
 

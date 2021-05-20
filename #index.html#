@@ -56,17 +56,17 @@
     <div class="header">
       <h2>Popular deals</h2>
       <style>
-	.header {
+	.header h2 {
 	    text-align: left;
 	    background: #FF0000;
 	    colour: white;
 	}
-	</style>
+	    
 		    
 
 <div class="row">
   <div class="column">
-    <a href="enigterry.github.io/img1.html"><img src="1.jpg" alt="hp" style="width:100%" <p>Lenovo Ideapad I...</p> <p> -174,000</p> >
+    <a href="enigterry.github.io/img1.html"><img src="1.jpg" alt="hp" style="width:100%" <p>Lenovo Ideapad I...</p> <p> -174,000</p> ></a>
   </div>
   <div class="column">
     <img src="2.jpg" alt="lenovo laptop" style="width:100%">

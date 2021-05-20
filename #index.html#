@@ -12,9 +12,16 @@
 
 <body>
 <div class="header">
-  <h1>EnigTeeWorld</h1>
+  <h1>EnigTeeWorld  <img src="00b70b3565da4650a6e8da2ce7147ef2.png" alt="EnigTeeWorld logo">
+    <style>
+      .header img {
+  float: right;
+  width: 100px;
+      }
+      </style>
+  </h1>
   <p>Fastest Rising Tech Hub.</p>
-  <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <form class="example" action="/action_page.php">
   <input type="text" placeholder="Search.." name="search2">
   <button type="submit"><i class="fa fa-search"></i></button>
 </form>
@@ -38,14 +45,57 @@
       <li> Sales of laptops at highly discounted prices</li>
       <li> Laptop repairs, software installations, programming and installations</li>
       <li> Exclusive online shopping deals on laptops and all related gadgets on the website</li>
+      <li> Graphics desiging: Printing of all kinds of posters, billboards and banner</li>
+      <li> Classes for interested individuals on Web development, Python, Front/Back end specializations</li>
       <li>Expert opinions and consultations to enable you pick that device that suits your needs</li>
       </ul>
   </div>
 
 
-  <div class="main"> <p> EnigTeeWorld. A platform dedicated to meeting your every computer and computer related needs.Buy that laptop that's suited for your needs, be it for business, personal use,gaming, we have it all</p>.</div>
+  <div class="main"> <p> EnigTeeWorld. A platform dedicated to meeting your every computer and computer related needs.Buy that laptop that's suited for your needs, be it for business, personal use,gaming, we have it all</p>
+    <div class="header">
+      <h2>Popular deals</h2>
+      <style>
+	.header {
+	    text-align: left;
+	    background: #FF0000;
+	    colour: white;
+	}
+	</style>
+		    
 
+<div class="row">
+  <div class="column">
+    <a href="enigterry.github.io/img1.html"><img src="1.jpg" alt="hp" style="width:100%" <p>Lenovo Ideapad I...</p> <p> -174,000</p> >
+  </div>
+  <div class="column">
+    <img src="2.jpg" alt="lenovo laptop" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="xps-EzYq1HOl5_8-unsplash.jpg" alt="ideapad" style="width:100%">
+  </div>
+  <style>
+  * {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</div>
+ </div>
+
+</div>
 </div>
 
 <div id="disqus_thread"></div>

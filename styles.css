@@ -2,7 +2,7 @@
 .header {
   padding: 10px; /* some padding */
   text-align: left; /* center the text */
-  background: #00008B; /* dark blue background */
+  background: darkblue; /* dark blue background */
   color: white; /* white text color */
 }
 /* Increase the font size of the <h1> element */
@@ -61,10 +61,7 @@
   padding: 20px; /* Some padding */
 }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
+
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */

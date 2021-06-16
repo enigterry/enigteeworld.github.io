@@ -29,13 +29,13 @@
 <!-- Navigation -->
 <nav class="w3-bar w3-black">
   <a href="https://enigterry.github.io" class="w3-button w3-bar-item">Home</a>
-  <a href="https://enigterry.github.io/contactusform.php" class="w3-button w3-bar-item">Categories</a>
-  <a href="#services" class="w3-button w3-bar-item">Services</a>
+  <a href="https://enigterry.github.io/testcontact.html" class="w3-button w3-bar-item">Categories</a>
+  <a href="https://enigterry.github.io/Services.html" class="w3-button w3-bar-item">Services</a>
   <a href="https://enigterry.github.io/contact.html" class="w3-button w3-bar-item">Contact</a>
 </nav>
-<!-- Slide Show --><div class="w3 container w3 white"> <img class="mySlides" src="joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg" style="width:100%" alt="pexel\sphoto-1229861">
-    <img class="mySlides" src="stefan-stefancik-5p_7M5MP2Iw-unsplash.jpg" style="width:100%"  alt="pexels-photo-109371">
-    <img class="mySlides" src="marvin-meyer-SYTO3xs06fU-unsplash.jpg" style="width:100%" alt="pexels-photo-450035">
+<!-- Slide Show --><div class="w3 container w3 white"> <img class="mySlides" src="usefirst.jpg" style="width:100%" alt="pexel\sphoto-1229861">
+    <img class="mySlides" src="usesecond.jpg" style="width:100%"  alt="pexels-photo-109371">
+    <img class="mySlides" src="usethird.jpg" style="width:100%" alt="pexels-photo-450035">
     
  </div>
 <div class="row">
@@ -59,7 +59,8 @@
 
 
   <div class="main">
-  <p> EnigTeeWorld. A platform dedicated to meeting your every computer and computer related needs.Buy that laptop that's suited for your needs, be it for business, personal use,gaming, we have it all</p>
+    <p> EnigTeeWorld. A platform dedicated to meeting your every computer and computer related needs.Buy that laptop that's suited for your needs, be it for business, personal use,gaming, we have it all</p>
+    <p>We sell laptops and computers at discounted prices both new and Uk used. Outstanding graphics design creation, web design.</p>
     <div class="w3-container w3-red">
       <h2>Popular deals</h2>
       <style>
@@ -130,9 +131,9 @@
 <iframe src="https://www.fiverr.com/embed_gigs?id=U2FsdGVkX1+FEufy8fNqViuYC7e/jjJXK8WqvKD98fWUgNGeb7JAo4yreYIML2aXVptJo1OwSfvR5j6DHWu//J8+TCpY4NwmmVU9m0Uyx0UcPMJ6iNsPJsWHAwAPq4TzgKKnlgLRnbl/mNrDnhUqdTNdU/pu+TGSwZEqzJLQ6zb6ebb/BBD6vqgfZAu+p2V0xkyZ3p9/o13C1q1TXoQ+JEPKhLrKvl3iR/2EJty+8zFnWUDKl91H71st6GyfwVW0lP4VMGDQNu3v5kuRUB259wj60MR8KI5hBP1Immx9BLfd1IC4s+owOVCnsik022KaLzCH+MsDiBjxa6OzSlFHVuZBdhtmtd9bQD6sYLWT+0asbYOaK59ALnSJ0eB/Bo8g7AzXd/jOby2HGuHLgFLKGyJ1HA9ZDcq6CTFXzY6Cjbd3tc0YnGU/A66tApA5aohNewXGHwtqvpX2akwH738XnQ==&strip_google_tagmanager=true" loading="lazy" data-with-title="true" class="fiverr_nga_frame" frameborder="0" height="5px" width="100%" onload='var s = document.createElement("script");s.setAttribute("src", "https://npm-assets.fiverrcdn.com/nga/onload_iframe.js");document.body.appendChild(s);' ></iframe> 
   <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-  <a href="#"><i class="fa fa-facebook-official"></i></a>
-  <a href="#"><i class="fa fa-pinterest-p"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="https://facebook.com"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://pinterest.com"><i class="fa fa-pinterest-p"></i></a>
+  <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
   <a href="#"><i class="fa fa-flickr"></i></a>
   <a href="#"><i class="fa fa-linkedin"></i></a>
 </footer>

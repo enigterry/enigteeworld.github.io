@@ -86,32 +86,22 @@ ml" class="w3-button w3-bar-item">Contact</a>
     <div class="container">
   <div style="text-align:center">
     <h2>Contact Us</h2>
-    <p>visit Enigteeworld at .....for all your tech related sales ranging from laptops,printets,scanners e.t.c or leave us a message:</p>
+    <p>visit Enigteeworld at shop 13 Obakhavaye street off Ring road Oba market Benin City, for all your tech related sales, Graphics design, video editing, laptop repairs e.t.c or leave us a message:</p> 
   </div>
   <div class="row">
     <div class="column">
       <img src="default.png" alt="EnigTeeWorld logo" style="width:100%">
     </div>
-    <div class="column">
       <!-- modify this form HTML and place wherever you want your form -->
-
-<form
-  action="https://formspree.io/f/mleanwoz"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
-</form>
+<div id="contact-form">
+                <form action="https://formspree.io/f/mleanwoz" method="POST">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Type your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
 </div>
+</div>
+
   </body>
   </html>

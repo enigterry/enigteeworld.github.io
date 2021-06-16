@@ -93,25 +93,25 @@ ml" class="w3-button w3-bar-item">Contact</a>
       <img src="default.png" alt="EnigTeeWorld logo" style="width:100%">
     </div>
     <div class="column">
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-	<label for="email">Email</label>
-	<input type="text" id="email" name="email" placeholder="Your Email..">
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="nigeria">Nigeria</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
+      <!-- modify this form HTML and place wherever you want your form -->
+
+<form
+  action="https://formspree.io/f/mleanwoz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 </div>
   </body>
   </html>

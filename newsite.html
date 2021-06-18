@@ -23,6 +23,60 @@
   background-size: cover;
   position: relative;
 }
+
+header {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transform-style: preserve-3d;
+  perspective: 100px;
+}
+
+header:before {
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.8)),
+              url(https://cssanimation.rocks/levelup/public/images/background.jpg) no-repeat bottom;
+  background-size: cover;
+  content: "";
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  z-index: -1;
+}
+
+header:after {
+  background: #F9FCFF;
+  content: "";
+  height: 40rem;
+  left: -5%;
+  position: absolute;
+    right: -5%;
+    top: 90%;
+  transform-origin: 0 0;
+  transform: rotateZ(-4deg);
+  z-index: 0;
+}
+
+.header-title, .header-subtitle {
+  color: #fff;
+}
+
+.header-subtitle {
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.header-button {
+  transform: translateZ(.1px);
+  position: relative;
+  z-index: 10;
+}
 .animate-pop-in {
   animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
   opacity: 0;
@@ -56,6 +110,7 @@
     opacity: 1;
     transform: none;
   }
+}
 
 
 /* Place text in the middle of the image */
@@ -133,15 +188,17 @@
 
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <div id="main">
-</div>
-  <div class="hero-image">
+  ...
+</div >
+<header>
+  <section class="header-content">
     <img src="usesecond.jpg" style="width:100%"  alt="pexels-photo-109371">
-    <div class="hero-text">
-      <h1 class="hero-text animate-pop-in">EnigTeeWorld FASTEST RISING TECH HUB</h1>
-    <p>And I'm a Photographer</p>
+    <h1 class="header-title animate-pop-in">EnigTeeWorld FASTEST RISING TECH HUB</h1>
+</header>
+</section>
+    <p>And I'm a Photographer </p>
     <button>Hire me</button>
-  </div>
-  </div>
+ 
   <script>
     /* Set the width of the side navigation to 250px */
 function openNav() {

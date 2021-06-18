@@ -32,6 +32,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  animation-name: pop-in;
+  animation-delay: 1.4s;
+  
 }
 /* The animation code */
 @keyframes pop-in {
@@ -45,12 +48,9 @@
   }
 }
 
-/* The element to apply the animation to */
-.header h1 {
-    animation-name: pop-in;
-}
 .animate-pop-in {
-  animation: pop-in .6s ease-out forwards;
+    animation: pop-in .6s ease-out forwards;
+    opacity: 0;
 }
 </style>
 </head>

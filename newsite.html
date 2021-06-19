@@ -7,8 +7,31 @@
 <style>
   body, html {
     height: 100%;
-}
+  }
+  
+  div.relative {
+  position: relative;
+  left: 50px;
+  colour: blue;
+  }
 
+  div.span {
+        display: inline-block;
+        border-bottom: 1px solid #000;
+        padding-bottom: 30px;
+	position: relative;
+	left: 30px;
+	font-size: 20px;
+      }
+      
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  left: 50px;
+}
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -122,12 +145,11 @@
 </style>
 </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 
   <div class="hero-image">
-    <img src="fornewsite.jpg" style="width:100%"  alt="pexels-photo-109371">
+    <img src="fornewsite.jpg" style="width:100%"  alt="pexels-photo-109371" <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <div class="hero-text">
       <h1 class="header-title animate-pop-in">EnigTeeWorld FASTEST RISING TECH HUB <style>
 {
@@ -140,32 +162,21 @@
 }
 	</style>
 	</h1>
-	</p>A platform dedicated to meeting your every computer and computer related needs </p>
      
     </div>
   </div>
-<div class="main">
-  <p> WHAT WE DO <style> {
-     text-align: center;
-     text-colour: blue;
- }
-  </style> </p>
-  <h2> WE'VE GOT EVERYTHING YOU NEED WHEN IT COMES TO COMPUTERS/LAPTOPS  <style> {
-     text-align: center;
-     padding-bottom: 30px;
-     border-bottom: 1px solid white;
-     line-height: 48px;
- }
- </style> </h2>
-   <div class="container">
-     <img src="ClipartKey_1188251.png" style="width:100%" alt="profile.png" <h3> <strong>laptop Repairs</strong> </h3>>
-     <p>We specialize in fixing laptops/computers, both hardware and software issues, we've got you. </p>
-   </div>
-   <div class="container">
-     <img src
+  
+  <div class="main">
+    
+    <div class="relative"> WHAT WE DO </div>
+    <div class="span"><p> <span> WHEN IT COMES TO ANYTHING COMPUTER, WE GOT YOU</span> </p> </div>
+
+   <di> class="container">
+     <img src="ClipartKey_1188251.png" style="width:100%" alt="profile.png" class="avatar" <h3> <strong>laptop Repairs</strong> </h3> >
+     <p>We specialize in fixing laptops/computers, both hardware and software issues, we got you</p>
     </div>
 
-      
+      </div>
  
     
   <script>

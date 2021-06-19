@@ -11,26 +11,21 @@
 </head>
 
 <body>
-<div class="header">
-  <h1>EnigTeeWorld  <img src="defaultnu.png" alt="EnigTeeWorld logo">
-    <style>
-      .header img {
-  float: right;
-  width: 100px;
+    <div class="header">
+      <h1>EnigTeeWorld <img src="defaultnu.png" alt="EnigTeeWorld logo"> </h1>
+      <style>
+	.header img {
+	    float: right;
+  width: 70px;
       }
       </style>
-  </h1>
   <p>Fastest Rising Tech Hub.</p>
-  <form class="example" action="/action_page.php">
-  <input type="text" placeholder="Search.." name="search2">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
-</div>
+  </div>
 <!-- Navigation -->
 <nav class="w3-bar w3-black">
   <a href="https://enigterry.github.io" class="w3-button w3-bar-item">Home</a>
-  <a href="https://enigterry.github.io/testcontact.html" class="w3-button w3-bar-item">Categories</a>
-  <a href="https://enigterry.github.io/Services.html" class="w3-button w3-bar-item">Services</a>
+  <a href="#categories" class="w3-button w3-bar-item">Categories</a>
+  <a href="https://enigterry.github.io/newsite.html" class="w3-button w3-bar-item">Services</a>
   <a href="https://enigterry.github.io/contact.html" class="w3-button w3-bar-item">Contact</a>
 </nav>
 <!-- Slide Show --><div class="w3 container w3 white"> <img class="mySlides" src="usefirst.jpg" style="width:100%" alt="pexel\sphoto-1229861">
@@ -106,6 +101,7 @@
 </div>
  </div>
 
+</div>
 </div>
 </div>
 

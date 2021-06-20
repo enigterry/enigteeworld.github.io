@@ -3,37 +3,12 @@
 <head>
   <title>EnigTeeWorld</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-  body, html {
-    height: 100%;
-}
-div.relative {
-  position: relative;
-  left: 97px;
-  padding: 40px;
-  }
-  
-div.container-image {
-  position: relative;
-  left: 97px;
-  padding: 40px;
-  }
-  span {
-        display: inline-block;
-        border-bottom: 1px solid #000;
-        padding-bottom: 50px;
-      }
-
-  .main {
-      background-color: blue;
-  }
 /* The hero 
   image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-
+  
   /* Set a specific height */
   height: 50%;
 
@@ -77,17 +52,8 @@ div.container-image {
     animation: pop-in .6s ease-out forwards;
     opacity: 0;
 }
-</style>
-</head>
-<body>
-  <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-  <style>
-    /* The side navigation menu */
+  
+  /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -137,31 +103,25 @@ div.container-image {
   .sidenav a {font-size: 18px;}
 }
 </style>
-</div>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+  </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
-
-  
   <div class="hero-image">
     <img src="usesecond.jpg" style="width:100%"  alt="pexels-photo-109371">
   <div class="hero-text">
     <h1 class="header-title animate-pop-in">EnigTeeWorld FASTEST RISING TECH HUB </h1>
   </div>
   </div>
-  <div class="main">
-    
-    <div class="relative"> <p style="color:blue"> WHAT WE DO </p> </div>
-    <p style="position:relative; left:20px; colour:blue"> <span>WHEN IT COMES TO EVERYTHING COMPUTER AND COMPUTER RELATED, WE GOT YOU</span> </p>
-    </div>
-    <div class="container-image">
-      <img src="ClipartKey_1188251.png" style="width:100% border-radius: 50%;" alt="profile.png">
-    </div>
-     <p style="position:relative; left:30px;">We specialize in fixing laptops/computers, both hardware and software issues, we got you</p>
-    
-
-    
-    <script>
+<script>
     /* Set the width of the side navigation to 250px */
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
@@ -172,5 +132,3 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
   </script>
-</body>
-</html>

@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>EnigTeeWorld</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<style>
+  body, html {
+    height: 100%;
+    font-family: 'Vollkorn', serif;
+    
+   
+  }
+  .main2 {
+      font-family: 'Vollkorn', serif;
+  }
+
+  
+
+
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+      
+ /* The hero 
+  image */
+.hero {
+  background-image: url('contact.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  
+}
+
+
+
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: inherit;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 1px solid #00BCD4;
+}
+
+input[type=submit] {
+  background-color: #00BCD4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+</style>
+</head>
+<body>
+  <div class="hero">
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="enigteeworld.github.io">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Laptops</a>
+      <a href="#">Graphics Design</a>
+      <a href="#">Web Design</a>
+    </div>
+    </div> 
+  <a href="https://enigteeworld.github.io/about.html">About</a>
+  <a href="https://enigteeworld.github.io/contact.html">Contact</a>
+  <style>
+    /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a , .dropdown {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav .dropdown:hover .dropbtn a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: #818181;
+  padding: 1px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+}
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+  </div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2 style="color:#00BCD4; font-family: 'Vollkorn',serif;">Contact Us</h2>
+    <p style="color:white; font-family: 'Vollkorn', serif;">visit Enigteeworld at shop 13 Obakhavaye street off Ring road Oba market Benin City, for all your tech related sales, Graphics design, video editing, laptop repairs e.t.c or leave us a message:</p> 
+  </div>
+</div>  
+
+<div class="row">
+      <!-- modify this form HTML and place wherever you want your form -->
+<div id="contact-form">
+                <form action="https://formspree.io/f/mleanwoz" method="POST">
+                  <input type="hidden" name="_subject" value="Contact request from personal website" />
+		  <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+		  <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+		   <input type="text" id="email" name="_replyto" placeholder="Your email.." required>
+                   <textarea name="message" placeholder="Type your message" style="height:200px" required></textarea>
+		    <input type="submit" value="Submit">
+            </form>
+</div>
+</div>
+
+
+<div class="main2">
+  <div style="text-align:center">
+    <p style="color:#00BCD4;"><b>Where to Find Us</b></p>
+    <p style="color:#C0C0C0;">shop 13 Obakhavaye street off Ring road Oba market Benin City</p>
+    </div>
+</div>
+
+<div class="main3">
+  <div style="text-align:center">
+    <p style="color:#00BCD4;"><b>Email Us At</b></p>
+    <p style="color:#C0C0C0;">enigteeworld@gmail.com</p>
+    <p style="color:#00BCD4;"><b>Call Us At</b></p>
+    <p style="color:#C0C0C0;">Phone: +2347052332733</p>
+    <p style="color:#C0C0C0;">Mobile: +2347041378606</p>
+  </div>
+</div>
+
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://facebook.com"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://pinterest.com"><i class="fa fa-pinterest-p"></i></a>
+  <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+</footer>
+
+<script defer src="https://widget.tochat.be/bundle.js?key=0f039334-fc0d-44f2-bfe8-2de86639af08"></script>
+  <script>
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+
+    <script id="dsq-count-scr" src="//3-238-204-52.disqus.com/count.js" async></script>
+</body>
+</html>

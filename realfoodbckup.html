@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<title>EnigTeeFoods</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+
+<script type="text/javascript"  src="https://p.github.io/prefixfree/prefixfree.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 { font-family: "Lato", sans-serif; }
+.hero {
+  font-family: "Amatic SC", sans-serif
+}
+
+.main3 {
+    background-color: #e9967a;
+}
+  </style>
+<body>
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+<!-- Navbar (Sits on top) -->
+<div class="w3-top w3-bar w3-black w3-opacity-min">
+<a href="#home" class="w3-bar-item w3-button">HOME</a>
+<a href="#menu" class="w3-bar-item w3-button">MENU</a>
+<a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+<a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+</div>
+
+<!-- Header image -->
+  <div class="hero">
+<div style="height:800px;background-image:url('yfood.jpg');background-size:cover" class="w3-display-container">
+<div class="w3-display-bottomleft">
+<span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+</div>
+<div class="w3-display-middle w3-center">
+<span class="w3-text-white" style="font-size:50px">ENIGTEEFOODS<br>MEAL REDESIGNED</span>
+<p><a href="#menu" class="w3-button w3-xlarge w3-black" style="position:relative; top:150px;">Let me see the menu</a></p>
+</div>
+</div>
+<div class="w3-display">
+  <div id="cloud"> <span class="w3-tag w3-medium">Need help placing an order?<br>Call:07041378606 <i class="fa fa-phone" style="font-size:24px; color:green"></i></span></div>
+  <style>
+#cloud {
+  font-family: 'Vollkorn', serif;
+  content: '';
+  opacity: 1;
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  color: black;
+  animation: float 3.5s infinite ease-in-out;
+}
+
+@keyframes float {
+    50% {
+        top: 60px;
+    }    
+    100% { 
+        top: 50px;
+    }
+}
+    
+    </style>
+    </div>
+   
+    </div>
+  
+  <!-- Menu -->
+<div id="menu" class="container w3-black" style=""  >
+  <h1 class="center w3-jumbo w3-padding-32" style="text-align:center; font-family:Amatic SC", sans-serif>THE MENU</h1><p>Min. order ₦1,000.00 Min. delivery fee ₦500.00 <a href="https://enigterry.github.io/moreinfo.html">More info</a></p>
+<div class="row w3-center w3-border w3-border-dark-grey">
+<a href="#pizza"><div class="w3-third w3-padding-large w3-red" style="color:black;">Pizza</div></a>
+<a href="#combo meal"><div class="w3-third w3-padding-large w3-hover-red" style="color:black;">Combo Meal</div></a>
+<a href="#popular meal"><div class="w3-third w3-padding-large w3-hover-red" style="color:black;">Popular Meal</div></a>
+<a href="#protein"><div class="w3-third w3-padding-large w3-hover-red" style="color:black;">Protein</div></a>
+<a href="#extras"><div class="w3-third w3-padding-large w3-hover-red" style="color:black;">Extras</div></a>
+<a href="#drinks"><div class="w3-third w3-padding-large w3-hover-red" style="color:black;">Drinks</div></a>
+
+</div>
+
+<div id="pizza" class="container w3-white" style="padding:45px;">
+  <div class="pepperoni">
+  <img src="peppiz.png"  width="100" height="90"    class="w3-right" alt="Chef">
+  <p><b>Pepperoni</b> <span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;3,000.00</span> </p>
+<p class="w3-text-grey">Pepperoni, mozzarella, tomato sauce
+ </p>
+    <hr style="position:relative; top:15px;">
+</div>
+  
+  <div class="beef suya">
+    <img src="beefsuya.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+<p><b>Beef Suya</b> <span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;3,000.00</span></p>
+<p class="w3-text-grey">Mayonnaise, spicy sauce, spicy meatballs, bell peppers, red onions, mozzarella, suya sauce, tomato sauce, suya spice</p>
+<hr style="position:relative; top:15px;">
+</div>
+  <div class="margherita">
+    <img src="margnew.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+<p><b>Margherita</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;3,000.00</span></p>
+<p class="w3-text-grey">Mozzarella, tomato sauce</p>
+    <hr style="position:relative; top:15px;">
+  </div>
+<div class="veggie overload">
+    <img src="veggiepiz.jpeg"  width="100" height="90"  class="w3-right" alt="Chef">
+<p><b>Veggie Overload</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;3,000.00</span></p>
+<p class="w3-text-grey">Mushroom, bell peppers, tomato, mozarella, tomato sauce</p>
+    <hr style="position:relative; top:15px;">
+    </div>
+  
+  </div>
+
+<h1 id="combo meal" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">COMBO MEAL</h1>
+<div class="w3-container w3-white w3-padding-32">
+  <div class="family deal">
+    <img src="famdeal.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+       <p><b>Family Deal</b> <span class="w3-tag w3-grey w3-round">Popular</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">&#8358;6,400</span></p>
+<p class="w3-text-grey">Any large pizza + 10 wings + 1litre coco-cola drink</p>
+<hr style="position:relative; top:15px;">
+</div>
+  <div class="veggie combo">
+    <img src="vegcomb.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+<p><b>Veggie Combo</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8358;4,500</span></p>
+<p class="w3-text-grey">Any large veggie overload pizza + veggie chips + 1litre coca cola drink</p>
+<hr style="position:relative; top:15px;">
+</div>
+
+<p><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></p>
+<p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+</div>
+
+<h1 id="popular meal" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">POPULAR MEAL</h1>
+<div class="w3-container w3-white w3-padding-32">
+
+<p><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></p>
+<p class="w3-text-grey">Ask the waiter</p>
+<hr>
+
+<p><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></p>
+<p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+<hr>
+
+<p><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></p>
+<p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+</div>
+<h1 id="protein" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">PROTEIN</h1>
+<div class="w3-container w3-white w3-padding-32">
+<div class="bbq chicken wings">
+    <img src="chiwing.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+       <p><b>BBQ chicken wings</b> <span class="w3-tag w3-red w3-round">Hot!</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;1,600</span></p>
+<p class="w3-text-grey">Baked chicken wings marinated in BBQ sauce</p>
+<hr style="position:relative; top:15px;">
+</div>
+<div class="buffalo chicken wings">
+    <img src="buffchic.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+       <p><b>Buffalo chicken wings</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;1,600</span></p>
+<p class="w3-text-grey">Baked chicken wings marinated in buffalo sauce</p>
+<hr style="position:relative; top:15px;">
+</div>
+  
+</div>
+<h1 id="extras" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">EXTRAS</h1>
+<div class="w3-container w3-white w3-padding-32">
+<div class="shawama">
+    <img src="shaws.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+       <p><b>Shawama</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;1,600</span></p>
+<p class="w3-text-grey">Single sausage, beef, chicken</p>
+<hr style="position:relative; top:15px;">
+</div>
+
+<div class="catfish barbeque">                         <img src="catbab.jpeg"  width="100" height="90" class="w3-right" alt="Chef">                                <p><b>Catfish Barbeque</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;2,000</span></p>
+<p class="w3-text-grey">Grilled catfish marinated in suya sauce, with chips and toppings</p>
+<hr style="position:relative; top:15px;">
+</div>
+
+</div>
+<h1 id="drinks" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">DRINKS</h1>
+<div class="w3-container w3-white w3-padding-32">
+
+
+  </div>
+</div>
+  
+  <!-- About -->
+<div id="about"  class="main3 w3-padding-32">
+<div style="text-align:center">
+<h1>About</h1>
+</div>
+<p>EnigTeeFoods founded by Ceo EnigTeeWorld Mr. Terry Onaiwu, is a restaurant that prides itself on dishing good food for the enjoyment and nourishment of it's customers, coupled with seamless delivery service to bring the restaurant to you anywhere you are.</p>
+
+<p><strong>The Chef?</strong> George Denson
+<img src="" style="width:100px" class="w3-circle w3-right" alt="Chef"></p>
+
+
+<h1><b>Opening Hours</b></h1>
+
+<div class="w3-row">
+<div class="w3-half">
+<p>Mon & tuesday; 8.00 - 6.00 </p>
+<p>Wednesday 10.00 - 24.00</p>
+<p>Thursday 10:00 - 24:00</p>
+</div>
+<div class="w3-half">
+<p>Friday 10:00 - 12:00</p>
+<p>Saturday 10:00 - 23:00</p>
+<p>Sunday Closed</p>
+</div>
+</div>
+
+</div>
+<script defer src="https://widget.tochat.be/bundle.js?key=0cab3693-5436-414d-b574-2e7456b45170"></script>
+<!-- End Content -->
+</div>
+</body>
+</html>

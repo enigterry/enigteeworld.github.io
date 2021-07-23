@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
-<title>EnigTeeFoods</title>
+<title>EnigTeeFoods - Restaurant, Pizza Delivery</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="EnigTeeFoods is a restaurant that offers pizza, barbeque, shawama, with a wide array of dishes and delivers your meal right to your doorsteps">
+<meta name="viewport" content="width=device-width, \
+intial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter?-bootstrap.css?v=0" />
+<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24Y2DX6VAWytmHlxY6pfLvI."+"&opts=16862&num=10&ts=1625160960250");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+
+<script data-ad-client="ca-pub-1735148900887755" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script type="text/javascript"  src="https://p.github.io/prefixfree/prefixfree.min.js"></script>
 <style>
 body,h1,h2,h3,h4,h5,h6 { font-family: "Lato", sans-serif; }
 .hero {
   font-family: "Amatic SC", sans-serif
-    }
+}
+
+.main3 {
+    background-color: #e9967a;
+}
   </style>
 <body>
 <!-- Start Content -->
@@ -21,20 +36,46 @@ body,h1,h2,h3,h4,h5,h6 { font-family: "Lato", sans-serif; }
 <a href="#home" class="w3-bar-item w3-button">HOME</a>
 <a href="#menu" class="w3-bar-item w3-button">MENU</a>
 <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-<a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+<a href="https://paystack.com/pay/enigteefoods" class="w3-bar-item w3-button">Bulk Orders<i class="fa fa-shopping-cart"></i></a>
 </div>
 
 <!-- Header image -->
   <div class="hero">
 <div style="height:800px;background-image:url('yfood.jpg');background-size:cover" class="w3-display-container">
 <div class="w3-display-bottomleft">
-<span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+<span class="w3-tag w3-xlarge">Open from 8am to 6pm</span>
 </div>
 <div class="w3-display-middle w3-center">
 <span class="w3-text-white" style="font-size:50px">ENIGTEEFOODS<br>MEAL REDESIGNED</span>
 <p><a href="#menu" class="w3-button w3-xlarge w3-black" style="position:relative; top:150px;">Let me see the menu</a></p>
 </div>
 </div>
+<div class="w3-display">
+  <div id="cloud"> <span class="w3-tag w3-medium">Need help placing an order?<br>Call:07041378606 <i class="fa fa-phone" style="font-size:24px; color:green"></i></span></div>
+  <style>
+#cloud {
+  font-family: 'Vollkorn', serif;
+  content: '';
+  opacity: 1;
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  color: black;
+  animation: float 3.5s infinite ease-in-out;
+}
+
+@keyframes float {
+    50% {
+        top: 60px;
+    }    
+    100% { 
+        top: 50px;
+    }
+}
+    
+    </style>
+    </div>
+   
     </div>
   
   <!-- Menu -->
@@ -51,105 +92,206 @@ body,h1,h2,h3,h4,h5,h6 { font-family: "Lato", sans-serif; }
 </div>
 
 <div id="pizza" class="container w3-white" style="padding:45px;">
-  <div class="margherita">
-  <img src="usepizza.jpg"  width="100" height="90"    class="w3-right" alt="Chef">
-  <p><b>Margherita</b>  <span class="w3-right  w3-tag w3-dark-grey w3-round">$15.50</span> </p>
-<p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil
- </p>
-    <hr style="position:relative; top:15px;">
+  <div class="pepperoni">
+  <img src="peppiz.png"  width="100" height="90"    class="w3-right" alt="Chef">
+  <p><b>Pepperoni</b> <span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;3,500.00</span> </p>
+<p class="w3-text-grey">Pepperoni, mozzarella, tomato sauce
+</p>
+<p><a href="https://paystack.com/buy/pepperoni-icmpsp" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+    <hr style="margin-top:35px;">
 </div>
   
-  <div class="formaggio">
-<p><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></p>
-<p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
-<hr style="position:relative; top:15px;">
+  <div class="beef suya">
+    <img src="beefsuya.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+<p><b>Beef Suya</b> <span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;3,500.00</span></p>
+    <p class="w3-text-grey">Mayonnaise, spicy sauce, spicy meatballs, beef,  bell peppers, red onions, mozzarella, suya sauce, tomato sauce, suya spice</p>
+    <p><a href="https://paystack.com/buy/beef-suya-qdlvsa" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+<hr style="margin-top:35px;">
 </div>
-  <div class="meattown">
-<p><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span>
-<span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></p>
-<p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
-    <hr>
+  <div class="chicken bbq">
+    <img src="BBQ-Chic.jpg.webp"  width="100" height="90" class="w3-right" alt="Chef">
+<p><b>Chicken BBQ</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;3,500.00</span></p>
+    <p class="w3-text-grey">Mozzarella, mayonnaise, spicy sauce BBQ sauce, chicken, red onions, tomato sauce bell peppers, spicy meatballs</p>
+    <p><a href="https://paystack.com/buy/chicken-bbq-bczmap" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+    <hr style="margin-top:35px;">
+  </div>
+<div class="veggie overload">
+    <img src="veggiepiz.jpeg"  width="100" height="90"  class="w3-right" alt="Chef">
+<p><b>Veggie Overload</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;3,500.00</span></p>
+    <p class="w3-text-grey">Mushroom, bell peppers, tomato, mozarella, tomato sauce</p>
+    <p><a href="https://paystack.com/buy/veggie-overload-eweynx" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+    <hr style="margin-top:35px;">
     </div>
+  
   </div>
 
 <h1 id="combo meal" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">COMBO MEAL</h1>
 <div class="w3-container w3-white w3-padding-32">
+  <div class="family deal">
+    <img src="famdeal.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+       <p><b>Family Deal</b> <span class="w3-tag w3-grey w3-round">Popular</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">&#8358;6,400</span></p>
+    <p class="w3-text-grey">Any large pizza + 10 wings + 1litre coco-cola drink</p>
+    <p><a href="https://paystack.com/buy/family-deal-bluabi" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
 
-<p><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span>
-<span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></p>
-<p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
-<hr>
+<hr style="margin-top:35px;">
+</div>
+  <div class="veggie combo">
+    <img src="vegcomb.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+<p><b>Veggie Combo</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8358;4,500</span></p>
+    <p class="w3-text-grey">Any large veggie overload pizza + veggie chips + 1litre coca cola drink</p>
+    <p><a href="https://paystack.com/buy/veggie-combo-szlggz" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
 
-<p><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></p>
-<p class="w3-text-grey">Ravioli filled with cheese</p>
-<hr>
+<hr style="margin-top:35px;">
+</div>
+<div class="fried rice combo">
+    <img src="yappcom.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+<p><b>Fried Rice Combo</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8358;3,500</span></p>
+    <p class="w3-text-grey">fried rice with 2 piece of chicken and salad</p>
+    <p><a href="https://paystack.com/buy/fried-rice-combo-wxocie" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
 
-<p><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></p>
-<p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+<hr style="margin-top:35px;">
+</div>
+
+  
 </div>
 
 <h1 id="popular meal" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">POPULAR MEAL</h1>
 <div class="w3-container w3-white w3-padding-32">
 
-<p><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span>
-<span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></p>
-<p class="w3-text-grey">Ask the waiter</p>
-<hr>
+<div class="fried rice">
+    <img src="zrice.jpg"  width="100" height="90" class="w3-right" alt="Chef">
+<p><b>Fried Rice</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8358;2000</span></p>
+    <p class="w3-text-grey">fried rice with a piece of chicken or turkey</p>
+    <p><a href="https://paystack.com/buy/fried-rice-vpitdq" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
 
-<p><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></p>
-<p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
-<hr>
-
-<p><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></p>
-<p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+<hr style="margin-top:35px;">
 </div>
+<div class="jollof rice">
+    <img src="zjoff.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+<p><b>Jollof Rice</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8358;2000</span></p>
+    <p class="w3-text-grey">Jollof rice with a piece of chicken or turkey</p>
+    <p><a href="https://paystack.com/buy/jollof-rice-beztaw" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+<hr style="margin-top:35px;">
+</div>  
+
+
+</div>
+
 <h1 id="protein" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">PROTEIN</h1>
 <div class="w3-container w3-white w3-padding-32">
+<div class="bbq chicken wings">
+    <img src="chiwing.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+       <p><b>BBQ chicken wings</b> <span class="w3-tag w3-red w3-round">Hot!</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;1,600</span></p>
+    <p class="w3-text-grey">Baked chicken wings marinated in BBQ sauce</p>
+    <p><a href="https://paystack.com/buy/bbq-chicken-wing-ydrwrp" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
 
+<hr style="margin-top:35px;">
+</div>
+<div class="buffalo chicken wings">
+    <img src="buffchic.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+       <p><b>Buffalo chicken wings</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;1,600</span></p>
+    <p class="w3-text-grey">Baked chicken wings marinated in buffalo sauce</p>
+    <p><a href="https://paystack.com/buy/buffalo-chicken-wings-fojwak" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+<hr style="margin-top:35px;">
+</div>
+  
 </div>
 <h1 id="extras" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">EXTRAS</h1>
 <div class="w3-container w3-white w3-padding-32">
+<div class="shawama">
+    <img src="shaws.jpeg"  width="100" height="90" class="w3-right" alt="Chef">
+       <p><b>Shawama</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;1,600</span></p>
+    <p class="w3-text-grey">Single sausage, beef, chicken</p>
+    <p><a href="https://paystack.com/buy/shawamaa-szoxbt" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
 
+<hr style="margin-top:35px;">
+</div>
+
+<div class="catfish barbeque">                         <img src="catbab.jpeg"  width="100" height="90" class="w3-right" alt="Chef">                                <p><b>Catfish Barbeque</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;2,000</span></p>
+  <p class="w3-text-grey">Grilled catfish marinated in suya sauce, with chips and toppings</p>
+  <p><a href="https://paystack.com/buy/catfish-barbeque-areirn" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+<hr style="margin-top:35px;">
+</div>
+<div class="enigtee hotdog">
+    <img src="enigdog.jpg"  width="100" height="90" class="w3-right" alt="Chef">
+    <p><b>EnigTee Hotdog</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">From &#8358;700</span></p>
+    <p class="w3-text-grey">meat ball, sausage, ketchup, mayonnaise</p>
+    <p><a href="https://paystack.com/buy/enigtee-hotdog-qnohgf" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+<hr style="margin-top:35px;">
+</div>
 
 </div>
 <h1 id="drinks" class="w3-center w3-jumbo w3-padding-20" style="font-family:Amatic SC, sans-serif">DRINKS</h1>
 <div class="w3-container w3-white w3-padding-32">
+<div class="coca-cola">
+    <img src="Coca-Cola-1ltr.jpg"  width="100" height="90" class="w3-right" alt="Chef">
+    <p><b>Coca-cola</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round"> &#8358;300</span></p>
+    <p class="w3-text-grey">1litre coca-cola drink</p>
+    <p><a href="https://paystack.com/buy/coca-cola-wbmusv" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+<hr style="margin-top:35px;">
+</div>
+<div class="fanta">
+    <img src="Fanta.png"  width="100" height="90" class="w3-right" alt="Chef">
+    <p><b>Fanta</b> <span class="w3-tag w3-red w3-round"></span>
+<span class="w3-right w3-tag w3-dark-grey w3-round"> &#8358;300</span></p>
+    <p class="w3-text-grey">1litre fanta drink</p>
+    <p><a href="https://paystack.com/buy/fanta-mabhau" class="w3-button w3-medium w3-light-grey" style="position:relative; left:2px;"> <i class="fa fa-shopping-cart" style="font-size:24px"></i>order</a></p>
+
+<hr style="margin-top:35px;">
+</div>
 
 
   </div>
 </div>
   
   <!-- About -->
-<div id="about" class="w3-container w3-red w3-grayscale w3-xlarge w3-padding-64">
+<div id="about"  class="main3 w3-padding-32">
+<div style="text-align:center">
+<h1>About</h1>
 
-<h1 class="w3-center w3-jumbo">About</h1>
+<p>EnigTeeFoods founded by Ceo EnigTeeWorld Mr. Terry Onaiwu, is a restaurant that prides itself on dishing good food for the enjoyment and nourishment of it's customers, coupled with seamless delivery service to bring the restaurant to you anywhere you are.</p>
+</div>
+<p><strong>The Chef?</strong> George Denson</p>
 
-<p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-<p><strong>The Chef?</strong> Mr. Italiano himself
-<img src="/w3images/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
-
-<p>We are proud of our interiors.</p>
-<p class="w3-padding-16 w3-stretch">
-<img src="img_restaurant.jpg" style="width:100%" alt="Restaurant">
-</p>
 <h1><b>Opening Hours</b></h1>
 
 <div class="w3-row">
 <div class="w3-half">
-<p>Mon &amp; Tue CLOSED</p>
-<p>Wednesday 10.00 - 24.00</p>
-<p>Thursday 10:00 - 24:00</p>
+<p>Mon & tuesday; 8.00 - 6.00 </p>
+<p>Wednesday 10.00 - 6.00</p>
+<p>Thursday 8:00 - 6:00</p>
 </div>
 <div class="w3-half">
-<p>Friday 10:00 - 12:00</p>
-<p>Saturday 10:00 - 23:00</p>
+<p>Friday 8:00 - 6:00</p>
+<p>Saturday 8:00 - 6:00</p>
 <p>Sunday Closed</p>
 </div>
 </div>
 
 </div>
-
+<!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+ 
+<script defer src="https://widget.tochat.be/bundle.js?key=0cab3693-5436-414d-b574-2e7456b45170"></script>
 <!-- End Content -->
 </div>
 </body>

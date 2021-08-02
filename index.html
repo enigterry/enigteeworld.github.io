@@ -483,20 +483,6 @@ function openMenu(evt, menuName) {
 document.getElementById("myLink").click();
 </script>
 
-
-<script> 
-	var i = 0; var images = []; var slideTime = 3000; // 3 seconds 
-	images[0] = 'yfood.jpg';
-	images[1] = 'slide2.jpg';
-	images[2] = 'slide3.jpg';
-	function changePicture() {
-	document.body.style.backgroundImage = "url(" + images[i] + ")";
-	
-	if (i < images.length - 1) { i++; } else { i = 0; } setTimeout(changePicture, slideTime); 
-	}
-	window.onload = changePicture;
-	
-</script>
  
 <script defer src="https://widget.tochat.be/bundle.js?key=0cab3693-5436-414d-b574-2e7456b45170"></script>
 

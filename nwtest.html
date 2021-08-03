@@ -101,14 +101,16 @@ body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .bgimg {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("yfood.jpg");
   min-height: 90%;
- 
+  
   
 }
 .nav {
-    font-family: "Amatic Sc", sans-serif
+font-family: "Amatic Sc", sans-serif;
 }
+
+
+
 
 
 /* Caption text */
@@ -164,7 +166,10 @@ body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   to {opacity: 1}
 }
 
-
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
 
 
 </style>
@@ -186,17 +191,17 @@ body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-display-container">
 
 <div class="mySlides fade">
-  <img src="yfood.jpg" style="background-size:cover; min-height:90%;position:relative;">
+  <bgimg src="yfood.jpg">
   <div class="text w3-animate-left">Caption Text</div>
 </div>
 
 <div class="mySlides fade">
-  <img src="slide2.jpg"      style="background-size:cover; min-height:90%;position:relative; ">
+  <bgimg src="slide2.jpg">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
-  <img src="slide3.jpg"     style="background-size:cover;min-height:90%; position:relative;">
+  <bgimg src="slide3.jpg">
   <div class="text">Caption Three</div>
 </div>
 
@@ -233,7 +238,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
 

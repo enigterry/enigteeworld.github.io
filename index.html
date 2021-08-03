@@ -101,7 +101,7 @@ body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .bgimg {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("slide3.jpg");
+  background-image: url("slide3.jpg","burgb.jpg","eback.jpg");
   min-height: 100%;
   
 }
@@ -669,6 +669,21 @@ function showSlides() {
   setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 </script>
+<script>
+	var i = 0; var images = []; var slideTime = 3000; // 3 seconds 
+	images[0] = 'slide3.jpg';
+	images[1] = 'burgb.jpg';
+	images[2] = 'eback.jpg'
+	function changePicture() {
+	document.body.style.backgroundImage = "url(" + images[i] + ")";
+	
+	if (i < images.length - 1) { i++; } else { i = 0; } setTimeout(changePicture, slideTime); 
+	}
+	window.onload = changePicture;
+	
+</script>
+
+
 <!-- End Content -->
 </body>
 </html>

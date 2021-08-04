@@ -36,10 +36,12 @@ body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 font-family: "Amatic Sc", sans-serif;
 }
 
-.container {
-    z-index: -1;
-    bottom: 5px;
-}
+.w3-content {
+    max-width: 980px;
+    background-color: #000;
+    position: relative;
+    z-index: 99;
+ }
 
 .cb-slideshow,
 cb-slideshow:after { 
@@ -48,7 +50,7 @@ cb-slideshow:after {
     height: 100%;
     top: 0px;
     left: 0px;
-    z-index: 0; 
+    z-index: 99; 
 }
 .cb-slideshow:after { 
     content: '';
@@ -66,7 +68,7 @@ cb-slideshow:after {
     background-position:
     background-repeat: no-repeat;
     opacity: 0;
-    z-index: 0;
+    z-index: 99;
     animation: imageAnimation 36s linear infinite 0s; 
 }
 .cb-slideshow li div { 
@@ -222,7 +224,7 @@ ul.no-bullets {
 </ul>
 </div>
 <!-- Menu Container -->
-<div class="container w3-black w3-padding-64" id="menu">
+<div class="container  w3-padding-64" id="menu">
   <div class="w3-content">  
     <h2 class="w3-center w3-jumbo" style="margin-bottom:32px;font-family:Amatic SC, sans-serif">THE MENU</h2><p>Min. order ₦1,000.00 Min. delivery fee ₦500.00 <a href="https://enigterry.github.io/moreinfo.html">More info</a></p>
     <div class="w3-row w3-center w3-border w3-border-dark-grey">

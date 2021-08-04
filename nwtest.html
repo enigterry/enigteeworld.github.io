@@ -48,7 +48,7 @@ cb-slideshow:after {
     height: 100%;
     top: 0px;
     left: 0px;
-    z-index: 1px; 
+    z-index: 99px; 
 }
 .cb-slideshow:after { 
     content: '';
@@ -67,8 +67,6 @@ cb-slideshow:after {
     background-repeat: no-repeat;
     opacity: 0;
     z-index: 99;
-    -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
     animation: imageAnimation 36s linear infinite 0s; 
 }
 .cb-slideshow li div { 

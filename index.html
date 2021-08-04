@@ -98,13 +98,7 @@ initial-scale=1">
 body, html {height: 100%}
 body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .menu {display: none}
-.bgimg {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("slide3.jpg");
-  min-height: 100%;
-  
-}
+
 .nav {
 font-family: "Amatic Sc", sans-serif;
 }
@@ -200,6 +194,124 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
+.cb-slideshow,
+.cb-slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+.cb-slideshow:after { 
+    content: '';
+    background: transparent url(../images/pattern.png) repeat top left; 
+}
+.cb-slideshow li span { 
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position:
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 36s linear infinite 0s; 
+}
+.cb-slideshow li div { 
+    z-index: 1000;
+    position: absolute;
+    bottom: 130px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    animation: titleAnimation 36s linear infinite 0s; 
+}
+.cb-slideshow li div p { 
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    padding:
+    line-height: 
+}
+.cb-slideshow li:nth-child(1) span { 
+    background-image: url(slide3.jpg) 
+}
+.cb-slideshow li:nth-child(2) span { 
+    background-image: url(yyfood.jpg);
+    animation-delay: 6s; 
+}
+.cb-slideshow li:nth-child(3) span { 
+    background-image: url(use3.jpg);
+    animation-delay: 12s; 
+}
+.cb-slideshow li:nth-child(4) span { 
+    background-image: url(burgb.jpg);
+    animation-delay: 18s; 
+}
+.cb-slideshow li:nth-child(5) span { 
+    background-image: url(use5.jpg);
+    animation-delay: 24s; 
+}
+.cb-slideshow li:nth-child(6) span { 
+    background-image: url(yfood.jpg);
+    animation-delay: 30s; 
+}
+.cb-slideshow li:nth-child(2) div { 
+    animation-delay: 6s; 
+}
+.cb-slideshow li:nth-child(3) div { 
+    animation-delay: 12s; 
+}
+.cb-slideshow li:nth-child(4) div { 
+    animation-delay: 18s; 
+}
+.cb-slideshow li:nth-child(5) div { 
+    animation-delay: 24s; 
+}
+.cb-slideshow li:nth-child(6) div { 
+    animation-delay: 30s; 
+}
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+.no-cssanimations .cb-slideshow li span{
+	opacity: 1;
+}
+@media screen and (max-width: 1140px) { 
+    .cb-slideshow li div h3 { font-size: 140px }
+}
+@media screen and (max-width: 600px) { 
+    .cb-slideshow li div h3 { font-size: 80px }
+}
+
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
 
 </style>
 <body>
@@ -222,16 +334,57 @@ img {vertical-align: middle;}
   
 <!-- Header with image -->
 
+<ul class="cb-slideshow  no-bullets" id="home"  style="font-family:Amatic SC, sans-serif">
+	<li>
+		<span>Image 01</span>
+		<div>
+			<p>Welcome to enigteefoods</p>
+		</div>
+	</li>
+	<li>
+      <span>image 02</span>
+      <div>
+        <p>Quality food</p>
+      </div>
+      </li>
+	<li>
+      <span>image 03</span>
+      <div>
+        <p>Feed your hunger</p>
+      </div>    
+	</li>
+	<li>
+    <span>image 04</span>
+    <div>
+      <p>Delivery service</p>
+    </div>
+  </li>
+  <li>
+    <span>image 05</span>
+    <div>
+      <p>Robust menu</p>
+    </div>
+  </li>
+  <li>
+    <span>image 6</span>
+    <div>
+      <p>Fresh pizza<p>
+    </div>
+  </li>
 
-<header class="bgimg w3-display-container" id="home"  style="font-family:Amatic SC, sans-serif"  >
-  <div class="w3-display-bottomleft w3-padding">
+<div class="w3-display-bottomleft w3-padding">
     <span class="w3-tag w3-xlarge">Open from 8am to 6pm</span>
   </div>
   <div class="w3-display-middle w3-center">
     <span class="w3-text-white" style="font-size:50px">ENIGTEEFOODS<br>MEAL REDESIGNED</span> 
     <p><a href="#menu" class="w3-button w3-xlarge w3-black"   style="position:relative; top:100px;" >Let me see the menu</a></p>
     </div>
-    </header>
+
+  
+</ul>
+
+ 
+   
     
   
  <div class="w3-container w3-black"><p><span></span></div>

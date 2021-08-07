@@ -9,18 +9,20 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <script type="text/javascript" src="https://enigterry.github.io/javascript.js"> </script>
 </head>
+<style>
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("slide3.jpg","burgb.jpg","slide4.jpg");
+  min-height: 100%;
 
+}
+
+
+  
+  </style>
 <body>
-    <div class="header">
-      <h1>EnigTeeWorld <img src="defaultnu.png" alt="EnigTeeWorld logo"> </h1>
-      <style>
-      .header img {
-  float: right;
-  width: 70px;
-      }
-      </style>
-  <p>Fastest Rising Tech Hub.</p>
-  </div>
+ 
 <!-- Navigation -->
 <nav class="w3-bar w3-black">
   <a href="https://enigterry.github.io" class="w3-button w3-bar-item">Home</a>
@@ -29,8 +31,8 @@
   <a href="https://enigterry.github.io/contact.html" class="w3-button w3-bar-item">Contact</a>
 </nav>
 <!-- Slide Show -->
-<div class="hero">
-  <div style="height:800px;background-image:;background-size:cover" class="w3-display-container">
+
+  <header class="bgimage w3-display-container" id="home" style="font-family:Amatic SC, sans-serif">
 <div class="w3-display-bottomleft">
 <span class="w3-tag w3-xlarge">Open from 8am to 6pm</span>
 </div>
@@ -38,13 +40,10 @@
 <span class="w3-text-white" style="font-size:50px">ENIGTEEFOODS<br>MEAL REDESIGNED</span>
 <p><a href="#menu" class="w3-button w3-xlarge w3-black" style="position:relative; top:150px;">Let me see the menu</a></p>
 </div>
-</div>
+</header>
   
-  <img class="mySlides" src="usefirst.jpg" style="width:100%" alt="pexel\sphoto-1229861">
-    <img class="mySlides" src="usesecond.jpg" style="width:100%"  alt="pexels-photo-109371">
-    <img class="mySlides" src="usethird.jpg" style="width:100%" alt="pexels-photo-450035">
+ 
     
- </div>
 <div class="row">
   <div class="side"> <h2>EnigTeeWorld:What we offer </h2>
     <p> At Enigteeworld we offer services ranging from sales of laptops, laptop repairs, software installations and more</p>
@@ -151,7 +150,7 @@ carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("bgimage");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
